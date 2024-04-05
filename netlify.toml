@@ -5,3 +5,6 @@
 [dev]
   port = 42056
   targetPort = 42059
+
+[functions]
+  directory = "netlify/functions"
