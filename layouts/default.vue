@@ -3,7 +3,7 @@
   <nav class="navbar">
     <div class="container-fluid">
 
-        <h1 class="mb-0 h1 text-white fs-1 mx-auto py-3">badalSense-Pollution[1]</h1>
+        <h1 class="mb-0 h1 text-white fs-1 mx-auto py-3">badalSense-Pollution</h1>
        
     </div>
    </nav>
@@ -16,10 +16,10 @@
 
 <style>
 .navbar {
-    background-color: #7D84B2;
+    background-color: #252422;
 }
 body {
-    background-color: #D5F9DE !important;
+    background-color: #CCC5B9 !important;
     coloor:white;
 }
 </style>
