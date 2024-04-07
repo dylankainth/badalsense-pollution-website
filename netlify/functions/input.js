@@ -6,9 +6,10 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 exports.handler = async (event, context) => {
     try {
-        await client.connect();
-        const collection = client.db("pollution").collection("sensordata");
-        const result = await collection.insertOne(JSON.parse(event.body));
+        // await client.connect();
+        // const collection = client.db("pollution").collection("sensordata");
+        // const result = await collection.insertOne(JSON.parse(event.body));
+        console.log(event.body);
         return {
         statusCode: 200,
         body: JSON.stringify(result),
