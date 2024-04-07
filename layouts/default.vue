@@ -3,7 +3,7 @@
   <nav class="navbar">
     <div class="container-fluid">
 
-        <h1 class="mb-0 h1 text-white fs-1 mx-auto py-3">moduLo</h1>
+        <h1 class="mb-0 h1 text-white fs-1 mx-auto py-3">badalSense-Pollution[1]</h1>
        
     </div>
    </nav>
