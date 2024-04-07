@@ -12,7 +12,8 @@ exports.handler = async (event, context) => {
         console.log(event.body);
         return {
         statusCode: 200,
-        body: JSON.stringify(result),
+        body: "OK",
+        // body: JSON.stringify(result),
         };
     } catch (err) {
         return { statusCode: 500, body: err.toString() };
