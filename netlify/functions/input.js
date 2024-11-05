@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
     try {
         const incomingData = JSON.parse(event.body);
         // add reported_at field to the incoming data
-        incomingData.reported_at = Math.floor(Date.now() / 1000);
+        incomingData.reported_at = Math.floor(Date.now() );
         
         client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
         await client.connect();
